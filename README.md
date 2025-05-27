@@ -126,6 +126,12 @@ uv pip install aws-finops-dashboard
 git clone https://github.com/ravikiranvm/aws-finops-dashboard.git
 cd aws-finops-dashboard
 
+# Create a python virtual environment
+python3 -m venv .venv
+
+# Activating the virtual environment
+source .venv/bin/activate
+
 # Install using pip
 pip install -e .
 ```
